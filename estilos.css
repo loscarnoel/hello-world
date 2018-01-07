@@ -1,0 +1,79 @@
+* {margin: 0;
+float: left;}
+/*Enlaces*/
+a: link {
+	color: yellow;
+}
+
+a:hover {
+	color: yellow;
+	background: blue;
+}
+a:visited {
+	color: yellow;
+}
+a:active {
+	color: blue;
+	background: yellow;
+}
+/*cierre de enlaces*/
+h1 {
+	margin: 40px 100px;
+	color: white;
+	text-align: center;
+}
+body {
+	background: url(../fits.jpg);
+	float: left;
+}
+ 
+body article {
+	background: rgba(35,25,36,.5);
+	font-family:"Futura", verdana;
+	color: white;
+	font-weight: bolder;
+	font-size:20px;
+	margin: 25px 70px;
+	margin-right: 50%;	
+	text-align: justify-all;
+	align-content: center;
+	display: block;
+	float: left;
+	display: inline-block;
+	padding: 20px;
+	}
+body p:hover{
+	cursor: progress;
+}
+}
+form div input {
+	align-self: center;
+}
+footer {
+	background: rgba(10, 0, 0, .5);
+	color: #ccc;
+	text-align: center;
+	width: 1200px;
+	margin-left: 50px;
+	display: block;
+	padding: 10px 40px;
+
+}
+div {
+	padding:20px;
+}
+div input, select{
+	padding: 10px;
+	margin: 0px 50px;
+
+}
+aside{
+
+	
+	margin: 30%:;
+}
+footer address{clear: inherit;
+	text-align: center;
+	color: white;
+	margin-left: 600px
+}
